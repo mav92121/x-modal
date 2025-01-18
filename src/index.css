@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 20px;
+}
+h4 {
+  margin-bottom: 10px;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+input {
+  width: 70%;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.entity {
+  margin-bottom: 10px;
+}
