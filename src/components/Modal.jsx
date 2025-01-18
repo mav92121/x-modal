@@ -64,7 +64,7 @@ const Modal = ({ onClose }) => {
         <form onSubmit={handleSubmit}>
           <div className="entity">
             <h4>Username:</h4>
-            <input name="username" required type="text" />
+            <input id="username" name="username" required type="text" />
           </div>
           <div className="entity">
             <h4>Email:</h4>
