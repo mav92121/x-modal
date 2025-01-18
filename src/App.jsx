@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <h1>User Details Modal</h1>
         <button onClick={() => setShowModal(true)}>Open Form</button>
-        {showModal && <Modal />}
+        {showModal && <Modal onClose={() => setShowModal(false)} />}
       </div>
     </>
   );
